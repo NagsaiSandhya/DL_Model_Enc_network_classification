@@ -1,0 +1,8 @@
+              precision    recall  f1-score   support
+
+      nonvpn       0.95      1.00      0.97      1319
+         vpn       1.00      0.90      0.95       755
+
+    accuracy                           0.96      2074
+   macro avg       0.97      0.95      0.96      2074
+weighted avg       0.97      0.96      0.96      2074

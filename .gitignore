@@ -1,0 +1,32 @@
+# Runtime / deps
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Builds
+Frontend/dist/
+backend/dist/
+
+# Env / secrets
+.env
+backend/.env
+Frontend/.env
+ml_service/tmp/
+backend/tmp/
+
+# Logs / test output
+npm-debug.log*
+coverage/
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large local-only data (raw captures incl. ~1.5 GB zip; derived small CSVs stay tracked)
+data/raw/
+*.pcap
+*.pcapng

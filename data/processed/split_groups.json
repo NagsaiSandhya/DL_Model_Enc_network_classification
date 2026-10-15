@@ -1,0 +1,47 @@
+{
+  "train_groups": [
+    "aim_chat_3a.pcap",
+    "aim_chat_3b.pcap",
+    "email1a.pcap",
+    "email2a.pcap",
+    "email2b.pcap",
+    "facebook_audio2a.pcap",
+    "facebook_audio2b.pcapng",
+    "facebook_chat_4a.pcap",
+    "facebook_video1a.pcap",
+    "facebook_video2a.pcap",
+    "facebook_video2b.pcapng",
+    "facebookchat1.pcapng",
+    "facebookchat2.pcapng",
+    "facebookchat3.pcapng",
+    "vpn_aim_chat1a.pcap",
+    "vpn_bittorrent.pcap",
+    "vpn_email2a.pcap",
+    "vpn_facebook_audio2.pcap",
+    "vpn_facebook_chat1a.pcap",
+    "vpn_ftps_A.pcap",
+    "vpn_ftps_B.pcap",
+    "vpn_hangouts_audio2.pcap"
+  ],
+  "val_groups": [
+    "AIMchat2.pcapng",
+    "email1b.pcap",
+    "facebook_audio3.pcapng",
+    "facebook_audio4.pcapng",
+    "vpn_facebook_chat1b.pcap",
+    "vpn_hangouts_audio1.pcap",
+    "vpn_hangouts_chat1a.pcap"
+  ],
+  "test_groups": [
+    "AIMchat1.pcapng",
+    "facebook_audio1a.pcap",
+    "facebook_audio1b.pcapng",
+    "facebook_chat_4b.pcap",
+    "facebook_video1b.pcapng",
+    "vpn_aim_chat1b.pcap",
+    "vpn_email2b.pcap",
+    "vpn_hangouts_chat1b.pcap"
+  ],
+  "seed": 42,
+  "rule": "stratified-by-vpn-label group split; all windows of a capture stay in one split"
+}

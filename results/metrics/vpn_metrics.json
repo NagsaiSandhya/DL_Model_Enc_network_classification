@@ -1,0 +1,210 @@
+{
+  "test": {
+    "n_samples": 2074,
+    "n_groups": 8,
+    "groups": [
+      "AIMchat1.pcapng",
+      "facebook_audio1a.pcap",
+      "facebook_audio1b.pcapng",
+      "facebook_chat_4b.pcap",
+      "facebook_video1b.pcapng",
+      "vpn_aim_chat1b.pcap",
+      "vpn_email2b.pcap",
+      "vpn_hangouts_chat1b.pcap"
+    ],
+    "class_distribution": {
+      "nonvpn": 1319,
+      "vpn": 755
+    },
+    "accuracy": 0.9633558341369335,
+    "precision_weighted": 0.9653522188004411,
+    "recall_weighted": 0.9633558341369335,
+    "f1_weighted": 0.9628978616250704,
+    "precision_macro": 0.9727598566308244,
+    "recall_macro": 0.9496688741721855,
+    "f1_macro": 0.9594992235107183,
+    "confusion_matrix": [
+      [
+        1319,
+        0
+      ],
+      [
+        76,
+        679
+      ]
+    ],
+    "classification_report": {
+      "nonvpn": {
+        "precision": 0.9455197132616487,
+        "recall": 1.0,
+        "f1-score": 0.971997052321297,
+        "support": 1319.0
+      },
+      "vpn": {
+        "precision": 1.0,
+        "recall": 0.8993377483443709,
+        "f1-score": 0.9470013947001394,
+        "support": 755.0
+      },
+      "accuracy": 0.9633558341369335,
+      "macro avg": {
+        "precision": 0.9727598566308244,
+        "recall": 0.9496688741721855,
+        "f1-score": 0.9594992235107183,
+        "support": 2074.0
+      },
+      "weighted avg": {
+        "precision": 0.9653522188004411,
+        "recall": 0.9633558341369335,
+        "f1-score": 0.9628978616250704,
+        "support": 2074.0
+      }
+    }
+  },
+  "val": {
+    "n_samples": 2160,
+    "n_groups": 7,
+    "groups": [
+      "AIMchat2.pcapng",
+      "email1b.pcap",
+      "facebook_audio3.pcapng",
+      "facebook_audio4.pcapng",
+      "vpn_facebook_chat1b.pcap",
+      "vpn_hangouts_audio1.pcap",
+      "vpn_hangouts_chat1a.pcap"
+    ],
+    "class_distribution": {
+      "nonvpn": 1208,
+      "vpn": 952
+    },
+    "accuracy": 0.8148148148148148,
+    "precision_weighted": 0.8488157941755916,
+    "recall_weighted": 0.8148148148148148,
+    "f1_weighted": 0.814091429599525,
+    "precision_macro": 0.8349555223342557,
+    "recall_macro": 0.829651065724303,
+    "f1_macro": 0.8146811958896976,
+    "confusion_matrix": [
+      [
+        851,
+        357
+      ],
+      [
+        43,
+        909
+      ]
+    ],
+    "classification_report": {
+      "nonvpn": {
+        "precision": 0.9519015659955258,
+        "recall": 0.7044701986754967,
+        "f1-score": 0.8097050428163654,
+        "support": 1208.0
+      },
+      "vpn": {
+        "precision": 0.7180094786729858,
+        "recall": 0.9548319327731093,
+        "f1-score": 0.8196573489630298,
+        "support": 952.0
+      },
+      "accuracy": 0.8148148148148148,
+      "macro avg": {
+        "precision": 0.8349555223342557,
+        "recall": 0.829651065724303,
+        "f1-score": 0.8146811958896976,
+        "support": 2160.0
+      },
+      "weighted avg": {
+        "precision": 0.8488157941755916,
+        "recall": 0.8148148148148148,
+        "f1-score": 0.814091429599525,
+        "support": 2160.0
+      }
+    }
+  },
+  "train": {
+    "n_samples": 4993,
+    "n_groups": 22,
+    "groups": [
+      "aim_chat_3a.pcap",
+      "aim_chat_3b.pcap",
+      "email1a.pcap",
+      "email2a.pcap",
+      "email2b.pcap",
+      "facebook_audio2a.pcap",
+      "facebook_audio2b.pcapng",
+      "facebook_chat_4a.pcap",
+      "facebook_video1a.pcap",
+      "facebook_video2a.pcap",
+      "facebook_video2b.pcapng",
+      "facebookchat1.pcapng",
+      "facebookchat2.pcapng",
+      "facebookchat3.pcapng",
+      "vpn_aim_chat1a.pcap",
+      "vpn_bittorrent.pcap",
+      "vpn_email2a.pcap",
+      "vpn_facebook_audio2.pcap",
+      "vpn_facebook_chat1a.pcap",
+      "vpn_ftps_A.pcap",
+      "vpn_ftps_B.pcap",
+      "vpn_hangouts_audio2.pcap"
+    ],
+    "class_distribution": {
+      "nonvpn": 2836,
+      "vpn": 2157
+    },
+    "accuracy": 0.9997997196074504,
+    "precision_weighted": 0.9997997902032886,
+    "recall_weighted": 0.9997997196074504,
+    "f1_weighted": 0.9997997140412979,
+    "precision_macro": 0.9998237574903066,
+    "recall_macro": 0.9997681965693093,
+    "f1_macro": 0.9997959346237147,
+    "confusion_matrix": [
+      [
+        2836,
+        0
+      ],
+      [
+        1,
+        2156
+      ]
+    ],
+    "classification_report": {
+      "nonvpn": {
+        "precision": 0.9996475149806133,
+        "recall": 1.0,
+        "f1-score": 0.9998237264234091,
+        "support": 2836.0
+      },
+      "vpn": {
+        "precision": 1.0,
+        "recall": 0.9995363931386184,
+        "f1-score": 0.9997681428240204,
+        "support": 2157.0
+      },
+      "accuracy": 0.9997997196074504,
+      "macro avg": {
+        "precision": 0.9998237574903066,
+        "recall": 0.9997681965693093,
+        "f1-score": 0.9997959346237147,
+        "support": 4993.0
+      },
+      "weighted avg": {
+        "precision": 0.9997997902032886,
+        "recall": 0.9997997196074504,
+        "f1-score": 0.9997997140412979,
+        "support": 4993.0
+      }
+    }
+  },
+  "meta": {
+    "model": "C:\\MAJOR-PROJECT\\demo1\\models\\vpn_classifier.pkl",
+    "model_version": "1.0.0",
+    "task": "vpn_vs_nonvpn",
+    "feature_schema_ok": true,
+    "test_train_overlap_groups": [],
+    "eval_duration_sec": 0.8157415390014648,
+    "limitations": "Group-wise split: all windows of a capture stay in one split. Large captures truncated to first 20000 packets; val/test use same rule. Performance varies by application group (audio/video/chat/email)."
+  }
+}

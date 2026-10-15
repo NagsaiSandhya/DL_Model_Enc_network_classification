@@ -1,0 +1,8 @@
+{
+  "train_accuracy": 0.8960544762667735,
+  "val_accuracy": 0.8069444444444445,
+  "test_accuracy": 0.9252651880424301,
+  "best_val_accuracy": 0.8069444444444445,
+  "epochs": 15,
+  "comparison_note": "Same leakage-aware group split as Random Forest; RF test=0.9634."
+}

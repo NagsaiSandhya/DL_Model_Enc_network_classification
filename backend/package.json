@@ -1,0 +1,19 @@
+{
+  "name": "encrypted-traffic-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express backend for encrypted traffic classification (proxies to Python ML service)",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test tests/api.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0",
+    "multer": "^2.4.0"
+  }
+}

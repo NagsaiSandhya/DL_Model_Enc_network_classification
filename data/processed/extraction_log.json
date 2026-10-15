@@ -1,0 +1,310 @@
+{
+  "captures": {
+    "data/raw/NonVPN-PCAPs-01/aim_chat_3a.pcap": {
+      "packets_read": 1243,
+      "packets_usable": 1243,
+      "malformed": 0,
+      "truncated": false,
+      "error": "",
+      "n_windows": 25
+    },
+    "data/raw/NonVPN-PCAPs-01/aim_chat_3b.pcap": {
+      "packets_read": 2856,
+      "packets_usable": 2856,
+      "malformed": 0,
+      "truncated": false,
+      "error": "",
+      "n_windows": 58
+    },
+    "data/raw/NonVPN-PCAPs-01/AIMchat1.pcapng": {
+      "packets_read": 404,
+      "packets_usable": 404,
+      "malformed": 0,
+      "truncated": false,
+      "error": "",
+      "skipped_tiny_windows": 1,
+      "n_windows": 8
+    },
+    "data/raw/NonVPN-PCAPs-01/AIMchat2.pcapng": {
+      "packets_read": 366,
+      "packets_usable": 366,
+      "malformed": 0,
+      "truncated": false,
+      "error": "",
+      "n_windows": 8
+    },
+    "data/raw/NonVPN-PCAPs-01/email1a.pcap": {
+      "packets_read": 20001,
+      "packets_usable": 20000,
+      "malformed": 0,
+      "truncated": true,
+      "error": "",
+      "n_windows": 400
+    },
+    "data/raw/NonVPN-PCAPs-01/email1b.pcap": {
+      "packets_read": 20001,
+      "packets_usable": 20000,
+      "malformed": 0,
+      "truncated": true,
+      "error": "",
+      "n_windows": 400
+    },
+    "data/raw/NonVPN-PCAPs-01/email2a.pcap": {
+      "packets_read": 4417,
+      "packets_usable": 4417,
+      "malformed": 0,
+      "truncated": false,
+      "error": "",
+      "n_windows": 89
+    },
+    "data/raw/NonVPN-PCAPs-01/email2b.pcap": {
+      "packets_read": 7686,
+      "packets_usable": 7686,
+      "malformed": 0,
+      "truncated": false,
+      "error": "",
+      "n_windows": 154
+    },
+    "data/raw/NonVPN-PCAPs-01/facebook_audio1a.pcap": {
+      "packets_read": 20001,
+      "packets_usable": 20000,
+      "malformed": 0,
+      "truncated": true,
+      "error": "",
+      "n_windows": 400
+    },
+    "data/raw/NonVPN-PCAPs-01/facebook_audio1b.pcapng": {
+      "packets_read": 20001,
+      "packets_usable": 20000,
+      "malformed": 0,
+      "truncated": true,
+      "error": "",
+      "n_windows": 400
+    },
+    "data/raw/NonVPN-PCAPs-01/facebook_audio2a.pcap": {
+      "packets_read": 20001,
+      "packets_usable": 20000,
+      "malformed": 0,
+      "truncated": true,
+      "error": "",
+      "n_windows": 400
+    },
+    "data/raw/NonVPN-PCAPs-01/facebook_audio2b.pcapng": {
+      "packets_read": 20001,
+      "packets_usable": 20000,
+      "malformed": 0,
+      "truncated": true,
+      "error": "",
+      "n_windows": 400
+    },
+    "data/raw/NonVPN-PCAPs-01/facebook_audio3.pcapng": {
+      "packets_read": 20001,
+      "packets_usable": 20000,
+      "malformed": 0,
+      "truncated": true,
+      "error": "",
+      "n_windows": 400
+    },
+    "data/raw/NonVPN-PCAPs-01/facebook_audio4.pcapng": {
+      "packets_read": 20001,
+      "packets_usable": 20000,
+      "malformed": 0,
+      "truncated": true,
+      "error": "",
+      "n_windows": 400
+    },
+    "data/raw/NonVPN-PCAPs-01/facebook_chat_4a.pcap": {
+      "packets_read": 2192,
+      "packets_usable": 2192,
+      "malformed": 0,
+      "truncated": false,
+      "error": "",
+      "n_windows": 44
+    },
+    "data/raw/NonVPN-PCAPs-01/facebook_chat_4b.pcap": {
+      "packets_read": 5527,
+      "packets_usable": 5527,
+      "malformed": 0,
+      "truncated": false,
+      "error": "",
+      "n_windows": 111
+    },
+    "data/raw/NonVPN-PCAPs-01/facebook_video1a.pcap": {
+      "packets_read": 20001,
+      "packets_usable": 20000,
+      "malformed": 0,
+      "truncated": true,
+      "error": "",
+      "n_windows": 400
+    },
+    "data/raw/NonVPN-PCAPs-01/facebook_video1b.pcapng": {
+      "packets_read": 20001,
+      "packets_usable": 20000,
+      "malformed": 0,
+      "truncated": true,
+      "error": "",
+      "n_windows": 400
+    },
+    "data/raw/NonVPN-PCAPs-01/facebook_video2a.pcap": {
+      "packets_read": 20001,
+      "packets_usable": 20000,
+      "malformed": 0,
+      "truncated": true,
+      "error": "",
+      "n_windows": 400
+    },
+    "data/raw/NonVPN-PCAPs-01/facebook_video2b.pcapng": {
+      "packets_read": 20001,
+      "packets_usable": 20000,
+      "malformed": 0,
+      "truncated": true,
+      "error": "",
+      "n_windows": 400
+    },
+    "data/raw/NonVPN-PCAPs-01/facebookchat1.pcapng": {
+      "packets_read": 1061,
+      "packets_usable": 1061,
+      "malformed": 0,
+      "truncated": false,
+      "error": "",
+      "n_windows": 22
+    },
+    "data/raw/NonVPN-PCAPs-01/facebookchat2.pcapng": {
+      "packets_read": 434,
+      "packets_usable": 434,
+      "malformed": 0,
+      "truncated": false,
+      "error": "",
+      "n_windows": 9
+    },
+    "data/raw/NonVPN-PCAPs-01/facebookchat3.pcapng": {
+      "packets_read": 1726,
+      "packets_usable": 1726,
+      "malformed": 0,
+      "truncated": false,
+      "error": "",
+      "n_windows": 35
+    },
+    "data/raw/VPN-PCAPS-01/vpn_aim_chat1a.pcap": {
+      "packets_read": 1168,
+      "packets_usable": 1168,
+      "malformed": 0,
+      "truncated": false,
+      "error": "",
+      "n_windows": 24
+    },
+    "data/raw/VPN-PCAPS-01/vpn_aim_chat1b.pcap": {
+      "packets_read": 1287,
+      "packets_usable": 1287,
+      "malformed": 0,
+      "truncated": false,
+      "error": "",
+      "n_windows": 26
+    },
+    "data/raw/VPN-PCAPS-01/vpn_bittorrent.pcap": {
+      "packets_read": 20001,
+      "packets_usable": 20000,
+      "malformed": 0,
+      "truncated": true,
+      "error": "",
+      "n_windows": 400
+    },
+    "data/raw/VPN-PCAPS-01/vpn_email2a.pcap": {
+      "packets_read": 2707,
+      "packets_usable": 2707,
+      "malformed": 0,
+      "truncated": false,
+      "error": "",
+      "n_windows": 55
+    },
+    "data/raw/VPN-PCAPS-01/vpn_email2b.pcap": {
+      "packets_read": 18874,
+      "packets_usable": 18874,
+      "malformed": 0,
+      "truncated": false,
+      "error": "",
+      "n_windows": 378
+    },
+    "data/raw/VPN-PCAPS-01/vpn_facebook_audio2.pcap": {
+      "packets_read": 15094,
+      "packets_usable": 15094,
+      "malformed": 0,
+      "truncated": false,
+      "error": "",
+      "n_windows": 302
+    },
+    "data/raw/VPN-PCAPS-01/vpn_facebook_chat1a.pcap": {
+      "packets_read": 8801,
+      "packets_usable": 8801,
+      "malformed": 0,
+      "truncated": false,
+      "error": "",
+      "skipped_tiny_windows": 1,
+      "n_windows": 176
+    },
+    "data/raw/VPN-PCAPS-01/vpn_facebook_chat1b.pcap": {
+      "packets_read": 7567,
+      "packets_usable": 7567,
+      "malformed": 0,
+      "truncated": false,
+      "error": "",
+      "n_windows": 152
+    },
+    "data/raw/VPN-PCAPS-01/vpn_ftps_A.pcap": {
+      "packets_read": 20001,
+      "packets_usable": 20000,
+      "malformed": 0,
+      "truncated": true,
+      "error": "",
+      "n_windows": 400
+    },
+    "data/raw/VPN-PCAPS-01/vpn_ftps_B.pcap": {
+      "packets_read": 20001,
+      "packets_usable": 20000,
+      "malformed": 0,
+      "truncated": true,
+      "error": "",
+      "n_windows": 400
+    },
+    "data/raw/VPN-PCAPS-01/vpn_hangouts_audio1.pcap": {
+      "packets_read": 20001,
+      "packets_usable": 20000,
+      "malformed": 0,
+      "truncated": true,
+      "error": "",
+      "n_windows": 400
+    },
+    "data/raw/VPN-PCAPS-01/vpn_hangouts_audio2.pcap": {
+      "packets_read": 20001,
+      "packets_usable": 20000,
+      "malformed": 0,
+      "truncated": true,
+      "error": "",
+      "n_windows": 400
+    },
+    "data/raw/VPN-PCAPS-01/vpn_hangouts_chat1a.pcap": {
+      "packets_read": 20001,
+      "packets_usable": 20000,
+      "malformed": 0,
+      "truncated": true,
+      "error": "",
+      "n_windows": 400
+    },
+    "data/raw/VPN-PCAPS-01/vpn_hangouts_chat1b.pcap": {
+      "packets_read": 17543,
+      "packets_usable": 17543,
+      "malformed": 0,
+      "truncated": false,
+      "error": "",
+      "n_windows": 351
+    }
+  },
+  "errors": [],
+  "summary": {
+    "n_captures_processed": 37,
+    "n_windows": 9227,
+    "duration_sec": 97.4478030204773,
+    "max_packets_per_capture": 20000,
+    "window_size": 50
+  }
+}

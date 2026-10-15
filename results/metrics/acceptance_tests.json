@@ -1,0 +1,67 @@
+[
+  {
+    "test": "inventory generation",
+    "status": "passed",
+    "detail": "37 captures, 0 errors, labels=['nonvpn', 'vpn']"
+  },
+  {
+    "test": "feature extraction from valid captures",
+    "status": "passed",
+    "detail": "9227 windows, schema ok"
+  },
+  {
+    "test": "correct label mapping",
+    "status": "passed",
+    "detail": "mapping={'nonvpn': 0, 'vpn': 1}"
+  },
+  {
+    "test": "leakage-aware train/test splitting",
+    "status": "passed",
+    "detail": "train=22 val=7 test=8, no overlap"
+  },
+  {
+    "test": "successful baseline training",
+    "status": "passed",
+    "detail": "test_acc=0.9634, pipeline+scaler saved"
+  },
+  {
+    "test": "evaluation on held-out capture groups",
+    "status": "passed",
+    "detail": "test_acc=0.9634, figures exist"
+  },
+  {
+    "test": "saving fitted model + preprocessing artifacts",
+    "status": "passed",
+    "detail": "test_acc=0.9634, pipeline+scaler saved"
+  },
+  {
+    "test": "loading artifact in fresh process",
+    "status": "passed",
+    "detail": "nonvpn-cap->nonvpn, vpn-cap->vpn"
+  },
+  {
+    "test": "successful prediction on held-out valid capture",
+    "status": "passed",
+    "detail": "nonvpn-cap->nonvpn, vpn-cap->vpn"
+  },
+  {
+    "test": "invalid-file handling",
+    "status": "passed",
+    "detail": "controlled errors for bad extension + unsupported task"
+  },
+  {
+    "test": "same feature schema train vs inference",
+    "status": "passed",
+    "detail": "fresh==stored (max diff 5.82e-11)"
+  },
+  {
+    "test": "deterministic predictions",
+    "status": "passed",
+    "detail": "reproducible: nonvpn {'nonvpn': 0.9795542929292929, 'vpn': 0.02044570707070707}"
+  },
+  {
+    "test": "1D-CNN second model (fair sequence rep)",
+    "status": "passed",
+    "detail": "cnn test_acc=0.9253 (fair, same split)"
+  }
+]

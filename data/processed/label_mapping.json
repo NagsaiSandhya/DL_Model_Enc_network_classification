@@ -1,0 +1,7 @@
+{
+  "vpn_label_mapping": {
+    "nonvpn": 0,
+    "vpn": 1
+  },
+  "notes": "0=nonvpn, 1=vpn"
+}
